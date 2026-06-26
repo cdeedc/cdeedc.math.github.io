@@ -1,23 +1,23 @@
 ---
 ---
 
-@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&display=swap");
-
 @import "main";
 
 html,
-body,
+body {
+    font-family: "Times New Roman", Times, serif !important;
+}
+
+.post-content,
 #main-wrapper,
 #sidebar,
-.post-content,
+#topbar,
+.sidebar,
+.nav-link,
+.site-title,
 .post-title,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "EB Garamond", Garamond, Georgia, serif !important;
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Times New Roman", Times, serif !important;
 }
 
 #avatar {
