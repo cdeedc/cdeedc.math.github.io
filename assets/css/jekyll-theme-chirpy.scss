@@ -1,14 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&display=swap');
+---
+---
+
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&display=swap");
+
+@import "main";
+
+html,
+body,
+#main-wrapper,
+#sidebar,
+.post-content,
+.post-title,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "EB Garamond", Garamond, Georgia, serif !important;
+}
 
 #avatar {
-    display: none !important;
-}
-
-:root {
-    --font-family-base: 'EB Garamond', Garamond, Georgia, serif !important;
-    --font-family-heading: 'EB Garamond', Garamond, Georgia, serif !important;
-}
-
-html, body, p, h1, h2, h3, h4, h5, h6, .sidebar, .post-content {
-    font-family: 'EB Garamond', Garamond, Georgia, serif !important;
+    display: none;
 }
