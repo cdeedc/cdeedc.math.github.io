@@ -1,3 +1,14 @@
 #avatar {
     display: none !important;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root {
+    --font-family-base: 'EB Garamond', Garamond, Georgia, serif !important;
+    --font-family-heading: 'EB Garamond', Garamond, Georgia, serif !important;
+}
+
+html, body, p, h1, h2, h3, h4, h5, h6, .sidebar, .post-content {
+    font-family: 'EB Garamond', Garamond, Georgia, serif !important;
+}
